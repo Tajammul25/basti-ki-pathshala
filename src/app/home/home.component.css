@@ -1,0 +1,128 @@
+body{
+     font-family: Arial, sans-serif;
+}
+.hero img{
+    width:100% ;
+    height:auto;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 6rem;
+  color: white;
+  
+}
+.hero-text2 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  right: -25%;
+  font-size: 20px;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+.button{
+  position: absolute;
+  color: black;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-color:rgb(236, 236, 64);
+  padding: 16px 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Our Work  */
+
+.our-work{
+  color: black;
+}
+.container{
+  display: flex;
+}
+.work-image{
+  padding: 90px;
+  margin: 40px;
+  border-radius: 5px;
+}
+.work-text-title{
+  padding: 100px;
+  margin: 10px;
+  
+}
+.work-text-summary{
+  margin: 10px;
+  font-style: italic;
+}
+.button2{
+  color: black;
+  padding: 16px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color:rgb(236, 236, 64);
+  border-radius: 5px;
+}
+
+/*Container 2 */
+
+.container2{
+  display:flex;
+}
+.join-our-team-title{
+  padding: 50px;
+  background-color: lightblue;
+}
+
+.join-our-team-title h4{
+    font-size: 45px;
+}
+.join-our-team-summary{
+  padding: 50px;
+  
+}
+
+
+.join-our-team-image{
+}
+
+.work-button{
+  display: flex;
+  top: 20px;
+  gap: 3rem;
+}
+
+.about-us{
+   color: black;
+  padding: 16px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: gray;
+  border-radius: 5px;
+  
+}

@@ -1,0 +1,67 @@
+.about-container{
+   position: relative;
+     width: 100%;
+  max-width: 100%;
+}
+.about-image {
+   width: 100%;
+  height: auto;
+}
+
+.about-us-text{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 90px;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px black;
+   z-index: 2;
+}
+
+/* about text */
+
+.text{
+    background-color: lightgrey;
+}
+.about-text{
+    /* margin: 80px; */
+    padding: 150px;
+    color: black;
+    font-size: 18px;
+
+}
+.heading h5{
+    font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Story  */
+
+.our-story{
+    padding: 30px;
+    margin: 30px;
+}
+.story-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-title h4  {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-summary{
+    
+    padding: 40px;
+    margin: 25px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}

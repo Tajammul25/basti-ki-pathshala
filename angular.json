@@ -31,6 +31,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/basti-ki-pathshala/",
               "budgets": [
                 {
                   "type": "initial",
